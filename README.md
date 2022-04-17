@@ -9,7 +9,7 @@
  * SCL on esp8266 D1
  * SDA on esp8266 D2
 
-### DHT11 sensor
+### DHT11/DHT22 sensor
 
  * GND on GND
  * VCC on 3.3V
