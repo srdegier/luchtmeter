@@ -10,7 +10,7 @@ Als extra wil ik dat mijn IoT device makkelijk is in te stellen voor de gebruike
 
 Het ten eindelijk doel is om dit concept te kunnen gebruiken in het project van mijn studie. Ons concept is daar om een luchtmeter te maken die persoonlijk advies kan geven om de luchtkwaliteit binnenshuis te verbeteren. De luchtmeter stuurt de data naar onze server en de server stuurt 'nuttige' informatie door naar de app (client).
 
-![simpeldataline](/luchtmeter-wifi\afbeeldingen\simpeldataline.jpg)
+![simpeldataline](/afbeeldingen/simpeldataline.jpg)
 
 
 ## Microcontroller and sensoren
@@ -39,7 +39,7 @@ Het ten eindelijk doel is om dit concept te kunnen gebruiken in het project van 
  * VCC on 3.3V
  * sensor to D5 / GPIO14
 
-![ciruit-diagram](/luchtmeter-wifi\afbeeldingen\ciruit-diagram.png)
+![ciruit-diagram](/afbeeldingen/ciruit-diagram.png)
 
 ## Installatie
 
@@ -62,11 +62,11 @@ Als de libraries zijn geinstalleerd kunnen we de code uploaden naar de NodeMCU b
 
 Als we het device voor de eerste keer opstarten maakt het een 'Access point' aan
 
-![prototype](/luchtmeter-wifi/afbeeldingen\air-meter-ap.jpeg)
+![prototype](/afbeeldingen/air-meter-ap.jpeg)
 
 Vervolgens vullen we de wi-fi gegevens in het de api-key.
 
-![prototype](/luchtmeter-wifi/afbeeldingen\wifiinstellen.jpeg)
+![prototype](/afbeeldingen/wifiinstellen.jpeg)
 
 Tot slot gaan we opslaan en is het IoT device ready to go.
 
@@ -110,14 +110,14 @@ Het eind resultaat was dat de SGP30 (CO2 & TVOC) prima werkte. Alleen ben ik er 
 
 Ik had toen besloten om 2 nieuwe sensors te kopen. Dit zijn de DHT11 en DHT22. De DHT22 zou meer accuraat moeten zijn dan de DHT11. Dit kan ik testen met mijn luchtvochtigheidsmeter.
 
-![prototype](/luchtmeter-wifi\afbeeldingen\prototype.jpg)
+![prototype](/afbeeldingen/prototype.jpg)
 
 
 ### Sensoren testen op NodeMCU
 
 Toen ik de nieuwe sensoren binnen kreeg. Ging ik aan de slag met de NodeMCU. Hierbij ging ik de sensoren koppelen om te testen of ze werkte met de NodeMCU. Snel kwam ik achter dat de datalines van de NodeMCU niet overeenkomen met de digitalen lijnen van de Arduino. De libraries die ik gebruik voor de sensoren zijn eigenlijk bedoelt voor de Arduino. Gelukkig vond ik een repostory van een persoon die ook met de NodeMCU aan de slag ging met de sensoren die ik heb. Na het aansluiten van de sensoren zag ik de deze werkte. Ook ging ik het verschil bekijken van de DHT11 en DHT22. Wat eruit kwam was dat de DHT11 7% ernaast zat en de DHT22 3%~ ernaast zat. Ik kon niet concluderen dat de DHT22 accurater was voor mijn project.
 
-![prototype](/luchtmeter-wifi/afbeeldingen\nodemcu-proto.jpg)
+![prototype](/afbeeldingen/nodemcu-proto.jpg)
 
 ### WifiManager library
 
@@ -131,7 +131,7 @@ Hierbij ging ik opzoek naar een library die het instellen van het wi-fi makkelij
 
 De tutorial van de WifiManager was makkelijk te volgen. Ik hard hierbij geen problemen ervaren.
 
-![prototype](/luchtmeter-wifi/afbeeldingen\wifiinstellen2.jpeg)
+![prototype](/afbeeldingen/wifiinstellen2.jpeg)
 
 ### POSTEN naar Thinkspeak
 
@@ -139,7 +139,7 @@ Nu dat er sensoren zijn die kunnen meten en er wi-fi verbinding is. Kan ik start
 
 Na het fixen van de milde 'bug'. Kon de POST call succesvol worden gemaakt en was de data verwerkt naar informatie op Thingspeak.
 
-![prototype](/luchtmeter-wifi/afbeeldingen\thingspeak.png)
+![prototype](/afbeeldingen/thingspeak.png)
 
 ### Extra parameter toevoegen
 
@@ -147,7 +147,7 @@ Nu dat alles werkt zou je zeggen dat ik tevreden zou zijn. Dit was ik alleen nog
 
 Alleen moeten deze velden ook worden opgeslagen. Dit gebeurd in de memory van de ESP8266. Om dit te bereiken het ik SPIFF gebruikt. Om het kort maar krachtig te houden maakt het een .json bestand aan met de parameter. Wanneer het apparaat uit gaat verliest het niet de api-key en kan het gebruikt worden wanneer het apparaat weer aan staat.
 
-![prototype](/luchtmeter-wifi/afbeeldingen\customparam.jpeg)
+![prototype](/afbeeldingen/customparam.jpeg)
 
 ## Uitwerking
 
@@ -159,11 +159,11 @@ De wi-fi instellen gedeelte heb ik niet opgenomen. Dit vanwege privacy redenen. 
 
 Als we het device voor de eerste keer opstarten maakt het een 'Access point' aan
 
-![prototype](/luchtmeter-wifi/afbeeldingen\air-meter-ap.jpeg)
+![prototype](/afbeeldingen/air-meter-ap.jpeg)
 
 Vervolgens vullen we de wi-fi gegevens in het de api-key
 
-![prototype](/luchtmeter-wifi/afbeeldingen\wifiinstellen.jpeg)
+![prototype](/afbeeldingen/wifiinstellen.jpeg)
 
 Tot slot gaan we opslaan en is het IoT device ready to go.
 
