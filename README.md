@@ -173,7 +173,7 @@ Nu dat ik een werkend prototype heb. Ga ik dit gebruik voor mijn studie project.
 
 Wat nog een toegevoegde waarde kan creëren is om een reset knop te plaatsen. Met deze knop verwijder je het wi-fi netwerk en de api-key. Op deze manier kan het apparaat makkelijk worden opnieuw ingesteld.
 
-Tot slot moet er ook een casing zijn met een batterij, zodat deze ergens draadloos geplaatst kan worden. Wel moet ik onderzoeken hoeveel stroom de NodeMCU gebruikt als een POST doet.
+Tot slot moet er ook een casing zijn met een batterij, zodat deze ergens draadloos geplaatst kan worden. Wel moet ik onderzoeken hoeveel stroom de NodeMCU gebruikt als ik een POST doet.
 
 ## Conclusie
 
