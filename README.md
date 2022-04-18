@@ -115,7 +115,7 @@ Ik had toen besloten om 2 nieuwe sensors te kopen. Dit zijn de DHT11 en DHT22. D
 
 ### Sensoren testen op NodeMCU
 
-Toen ik de nieuwe sensoren binnen kreeg. Ging ik aan de slag met de NodeMCU. Hierbij ging ik de sensoren koppelen om te testen of ze werkte met de NodeMCU. Snel kwam ik achter dat de datalines van de NodeMCU niet overeenkomen met de digitalen lijnen van de Arduino. De libraries die ik gebruik voor de sensoren zijn eigenlijk bedoelt voor de Arduino. Gelukkig vond ik een repostory van een persoon die ook met de NodeMCU aan de slag ging met de sensoren die ik heb. Na het aansluiten van de sensoren zag ik de deze werkte. Ook ging ik het verschil bekijken van de DHT11 en DHT22. Wat eruit kwam was dat de DHT11 7% ernaast zat en de DHT22 3%~ ernaast zat. Ik kon niet concluderen dat de DHT22 accurater was voor mijn project.
+Toen ik de nieuwe sensoren binnen kreeg. Ging ik aan de slag met de NodeMCU. Hierbij ging ik de sensoren koppelen om te testen of ze werkte met de NodeMCU. Snel kwam ik achter dat de datalines van de NodeMCU niet overeenkomen met de digitalen lijnen van de Arduino. De libraries die ik gebruik voor de sensoren zijn eigenlijk bedoelt voor de Arduino. Gelukkig vond ik een repostory van een persoon die ook met de NodeMCU aan de slag ging met de sensoren die ik heb. Na het aansluiten van de sensoren zag ik de deze werkte. Ook ging ik het verschil bekijken van de DHT11 en DHT22. Wat eruit kwam was dat de DHT11 7% ernaast zat en de DHT22 3%~ ernaast zat. Ik kon nu concluderen dat de DHT22 accurater was voor mijn project.
 
 ![prototype](/afbeeldingen/nodemcu-proto.jpg)
 
