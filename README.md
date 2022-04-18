@@ -125,7 +125,7 @@ Om de data te versturen naar Thingspeak. Heb je een internetverbinding nodig. De
 
 Hierbij moet je je eigen wi-fi gegevens invullen, zodat de ESP8266 kan communiceren met het internet. Dit kan je bereiken om hardcoded de gegevens van de wi-fi in te vullen.
 
-Echter wou ik dit wat dynamischer en gebruikersvriendelijk maken, omdat mijn doelgroep niet de kennis beschikt om de hardcoded waardes te veranderen. Ook is het natuurlijk in het algemeen erg onhandig om elke keer de hardcoded waardes te veranderen om te kunnen verbinden met het internet.
+Echter wou ik dit wat dynamischer en gebruikersvriendelijk gaan maken, omdat mijn doelgroep niet de kennis beschikt om de hardcoded waardes te veranderen. Ook is het natuurlijk in het algemeen erg onhandig om elke keer de hardcoded waardes te veranderen om te kunnen verbinden met het internet.
 
 Hierbij ging ik opzoek naar een library die het instellen van het wi-fi makkelijker maakt. Ik kwam snel uit bij de library 'WifiManager'. Wat WifiManager doet is op het moment dat het apparaat geen wi-fi heeft. Dat de ESP8266 een access point gaat aanmaken waardoor de gebruiker hiermee kan verbinden. Vervolgens dien je naar de interface te gaan. Hiervoor moet je naar een bepaalde url toe. Er is vervolgens een scherm waar je je wi-fi kan instellen en opslaan. Wanneer dit is gebeurd sluit het accesspoint en kan de NodeMCU beginnen met het meten van de luchtkwaliteit.
 
