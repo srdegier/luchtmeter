@@ -1,6 +1,21 @@
-# luchtmeter
+# Luchtmeter
 
-## Connections
+## Concept
+
+## Doelen
+
+## Microcontroller and sensoren
+
+### Microcontroller
+
+* NodeMCU (esp8266)
+
+### Sensoren
+
+* SGP30
+* DHT11/22
+
+## Connecties
 
 ### SGP30 sensor
 
