@@ -4,7 +4,7 @@
 
 Het concept is om een luchtmeter te maken die de volgende waardes meet: temperatuur, luchtvochtigheid, CO2 en TVOC. Deze data moet vervolgens naar Thingspeak gestuurd worden om hieruit informatie te krijgen om de actuele luchtkwaliteit te zien van mijn slaapkamer.
 
-![simpeldataline](/afbeeldingen/simpeldataline.jpg)
+![simpeldataline](/afbeeldingen/data_pipeline.png)
 
 Als extra wil ik dat mijn IoT device makkelijk is in te stellen voor de gebruiker. Hierbij wil ik dat het Wi-Fi en api-key niet hardcoded zijn, maar juist met een interface is in te vullen.
 
