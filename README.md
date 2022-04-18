@@ -129,7 +129,7 @@ Echter wou ik dit wat dynamischer en gebruikersvriendelijk gaan maken, omdat mij
 
 Hierbij ging ik opzoek naar een library die het instellen van het wi-fi makkelijker maakt. Ik kwam snel uit bij de library 'WifiManager'. Wat WifiManager doet is op het moment dat het apparaat geen wi-fi heeft. Dat de ESP8266 een access point gaat aanmaken waardoor de gebruiker hiermee kan verbinden. Vervolgens dien je naar de interface te gaan. Hiervoor moet je naar een bepaalde url toe. Er is vervolgens een scherm waar je je wi-fi kan instellen en opslaan. Wanneer dit is gebeurd sluit het accesspoint en kan de NodeMCU beginnen met het meten van de luchtkwaliteit.
 
-De tutorial van de WifiManager was makkelijk te volgen. Ik hard hierbij geen problemen ervaren.
+De tutorial van de WifiManager was makkelijk te volgen. Ik had hierbij geen problemen ervaren.
 
 ![prototype](/afbeeldingen/wifiinstellen2.jpeg)
 
