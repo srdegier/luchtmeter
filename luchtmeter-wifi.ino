@@ -197,7 +197,7 @@ void loop() {
   if ((WiFi.status() == WL_CONNECTED)) {
     
     delay(5000);  
-
+    // Read humidty as Celsius (the default)
     float h = dht.readHumidity();
     // Read temperature as Celsius (the default)
     float t = dht.readTemperature();
@@ -217,7 +217,8 @@ void loop() {
       Serial.println("Measurement failed");
       return;
     }
-
+    
+    // set co2 and tvoc
     TVOC = sgp.TVOC;
     eCO2 = sgp.eCO2;
 
@@ -229,8 +230,7 @@ void loop() {
       return;
     }
 
-    // calibratie
-
+    // calibratie of co2 and tvoc
     counter++;
     if (counter == 30) {
       counter = 0;
